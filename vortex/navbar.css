@@ -1,0 +1,31 @@
+/* Navigation Bar */
+ul {
+	/* Container */
+	width: 100% relative;
+	height: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #FFF;
+	
+	/* Text */
+	list-style-type: none;
+}
+li {
+	float: left;
+}
+/* Button */
+li a {
+	display: block;
+	color: #272727;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	color: #000;
+}
+.active {
+  color: red;
+}
